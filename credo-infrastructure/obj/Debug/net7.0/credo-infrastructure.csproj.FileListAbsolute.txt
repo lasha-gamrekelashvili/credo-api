@@ -1,0 +1,17 @@
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\bin\Debug\net7.0\credo-infrastructure.deps.json
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\bin\Debug\net7.0\credo-infrastructure.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\bin\Debug\net7.0\credo-infrastructure.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\bin\Debug\net7.0\credo-domain.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\bin\Debug\net7.0\credo-domain.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.csproj.AssemblyReference.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.AssemblyInfoInputs.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.AssemblyInfo.cs
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.csproj.CopyComplete
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\refint\credo-infrastructure.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\ref\credo-infrastructure.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\bin\Debug\net7.0\credo-infrastructure.runtimeconfig.json
+C:\Users\lashg\RiderProjects\credo-api\credo-infrastructure\obj\Debug\net7.0\credo-infrastructure.genruntimeconfig.cache

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credo-api", "credo-api\credo-api.csproj", "{55686B27-3A63-4AE8-A276-7C6C582B72CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credo-domain", "credo-domain\credo-domain.csproj", "{E97B508B-887B-4085-9579-727C7CA325D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credo-infrastructure", "credo-infrastructure\credo-infrastructure.csproj", "{24FA8554-ABB3-4E9B-991C-114A51CBC2B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credo-client", "credo-client\credo-client.csproj", "{2BE6DA0B-9985-4CED-B1CA-2D3BD08AB6FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55686B27-3A63-4AE8-A276-7C6C582B72CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55686B27-3A63-4AE8-A276-7C6C582B72CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55686B27-3A63-4AE8-A276-7C6C582B72CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55686B27-3A63-4AE8-A276-7C6C582B72CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97B508B-887B-4085-9579-727C7CA325D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97B508B-887B-4085-9579-727C7CA325D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97B508B-887B-4085-9579-727C7CA325D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97B508B-887B-4085-9579-727C7CA325D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FA8554-ABB3-4E9B-991C-114A51CBC2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FA8554-ABB3-4E9B-991C-114A51CBC2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FA8554-ABB3-4E9B-991C-114A51CBC2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FA8554-ABB3-4E9B-991C-114A51CBC2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE6DA0B-9985-4CED-B1CA-2D3BD08AB6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE6DA0B-9985-4CED-B1CA-2D3BD08AB6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE6DA0B-9985-4CED-B1CA-2D3BD08AB6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE6DA0B-9985-4CED-B1CA-2D3BD08AB6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

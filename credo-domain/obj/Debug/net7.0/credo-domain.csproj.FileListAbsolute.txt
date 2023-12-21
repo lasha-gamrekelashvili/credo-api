@@ -1,0 +1,13 @@
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\bin\Debug\net7.0\credo-domain.deps.json
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\bin\Debug\net7.0\credo-domain.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\bin\Debug\net7.0\credo-domain.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\credo-domain.csproj.AssemblyReference.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\credo-domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\credo-domain.AssemblyInfoInputs.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\credo-domain.AssemblyInfo.cs
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\credo-domain.csproj.CoreCompileInputs.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\credo-domain.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\refint\credo-domain.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\credo-domain.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\ref\credo-domain.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-domain\obj\Debug\net7.0\EFCoreNpgsqlNodaTime.cs

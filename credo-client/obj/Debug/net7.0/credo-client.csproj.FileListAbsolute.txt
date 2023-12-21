@@ -1,0 +1,15 @@
+C:\Users\lashg\RiderProjects\credo-api\credo-client\bin\Debug\net7.0\credo-client.deps.json
+C:\Users\lashg\RiderProjects\credo-api\credo-client\bin\Debug\net7.0\credo-client.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-client\bin\Debug\net7.0\credo-client.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-client\bin\Debug\net7.0\credo-domain.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-client\bin\Debug\net7.0\credo-domain.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.csproj.AssemblyReference.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.AssemblyInfoInputs.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.AssemblyInfo.cs
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.csproj.CoreCompileInputs.cache
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.csproj.CopyComplete
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\refint\credo-client.dll
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\credo-client.pdb
+C:\Users\lashg\RiderProjects\credo-api\credo-client\obj\Debug\net7.0\ref\credo-client.dll

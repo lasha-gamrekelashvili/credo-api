@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\credo-api.props" />
+</Project>
