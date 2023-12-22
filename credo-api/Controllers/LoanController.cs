@@ -1,4 +1,5 @@
-﻿using credo_api.Executors;
+﻿using credo_api.Context;
+using credo_api.Executors;
 using credo_client.Requests;
 using credo_client.Responses;
 using credo_domain.Models;
@@ -13,14 +14,42 @@ namespace credo_api.Controllers;
 public class LoanController : ControllerBase
 {
     [HttpPost]
-    public async Task<ActionResult<Loan>> CreateLoan([FromServices] ILoanCommandExecutor loanCommandExecutor,CreateLoanRequest request)
+    public async Task<ActionResult<Loan>> CreateAsync([FromServices] ILoanCommandExecutor loanCommandExecutor,CreateLoanRequest request)
     {
-        return Ok(await loanCommandExecutor.AddLoan(request));
+        return Ok(await loanCommandExecutor.CreateAsync(request));
     }
     
     [HttpGet("all")]
-    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> GetAll([FromServices] ILoanCommandExecutor loanCommandExecutor)
+    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> GetAllAsync([FromServices] ILoanCommandExecutor loanCommandExecutor)
     {
-        return Ok(await loanCommandExecutor.GetAll());
+        return Ok(await loanCommandExecutor.GetAllAsync());
+    }
+    
+    [HttpGet("all/me")]
+    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> GetAllLoanForCurrentUserAsync(
+        [FromServices] ILoanCommandExecutor loanCommandExecutor, [FromServices] IUserContextService ctx)
+    {
+        return Ok(await loanCommandExecutor.GetAllByUserIdAsync(ctx.GetCurrentUserId()));
+    }
+    
+    [HttpPut]
+    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> UpdateAsync(
+        [FromServices] ILoanCommandExecutor loanCommandExecutor, UpdateLoanRequest updateLoanRequest)
+    {
+        return Ok(await loanCommandExecutor.UpdateAsync(updateLoanRequest));
+    }
+    
+    [HttpPost("approve")]
+    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> ApproveAsync(
+        [FromServices] ILoanCommandExecutor loanCommandExecutor, Guid id)
+    {
+        return Ok(await loanCommandExecutor.ApproveAsync(id));
+    }
+    
+    [HttpPost("reject")]
+    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> RejectAsync(
+        [FromServices] ILoanCommandExecutor loanCommandExecutor, Guid id)
+    {
+        return Ok(await loanCommandExecutor.RejectAsync(id));
     }
 }

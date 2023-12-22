@@ -6,7 +6,11 @@ namespace credo_api.Executors;
 
 public interface ILoanCommandExecutor
 {
-    Task<Loan> AddLoan(CreateLoanRequest createLoanRequest);
+    Task<Loan> CreateAsync(CreateLoanRequest createLoanRequest);
+    Task<Loan> UpdateAsync(UpdateLoanRequest updateLoanRequest);
+    Task<Loan> ApproveAsync(Guid id);
+    Task<Loan> RejectAsync(Guid id);
+    Task<IEnumerable<GetLoanResponseModel>> GetAllAsync();
+    Task<IEnumerable<GetLoanResponseModel>> GetAllByUserIdAsync(Guid userId);
 
-    Task<IEnumerable<GetLoanResponseModel>> GetAll();
 }

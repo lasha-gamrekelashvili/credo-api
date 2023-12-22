@@ -18,5 +18,9 @@ public class LoanRepository : Repository<Loan>, ILoanRepository
     {
         return await DbSet.Include(entity => entity.User).ToListAsync();
     }
-    
+
+    public async Task<List<Loan>> GetAllLoansByUserIdAsync(Guid userId)
+    {
+        return  await DbSet.Where(entity => entity.UserId.Equals(userId)).ToListAsync();
+    }
 }

@@ -1,5 +1,4 @@
-﻿using credo_domain.Models.Base;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace credo_infrastructure.Persistence.Base;
 
