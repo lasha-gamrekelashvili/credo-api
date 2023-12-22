@@ -20,16 +20,16 @@ public class LoanController : ControllerBase
     }
     
     [HttpGet("all")]
-    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> GetAllAsync([FromServices] ILoanCommandExecutor loanCommandExecutor)
+    public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> GetAllAsync([FromServices] ILoanQueryExecutor loanQueryExecutor)
     {
-        return Ok(await loanCommandExecutor.GetAllAsync());
+        return Ok(await loanQueryExecutor.GetAllAsync());
     }
     
     [HttpGet("all/me")]
     public async Task<ActionResult<IEnumerable<GetLoanResponseModel>>> GetAllLoanForCurrentUserAsync(
-        [FromServices] ILoanCommandExecutor loanCommandExecutor, [FromServices] IUserContextService ctx)
+        [FromServices] ILoanQueryExecutor loanQueryExecutor, [FromServices] IUserContextService ctx)
     {
-        return Ok(await loanCommandExecutor.GetAllByUserIdAsync(ctx.GetCurrentUserId()));
+        return Ok(await loanQueryExecutor.GetAllByUserIdAsync(ctx.GetCurrentUserId()));
     }
     
     [HttpPut]

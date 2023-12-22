@@ -10,7 +10,5 @@ public interface ILoanCommandExecutor
     Task<Loan> UpdateAsync(UpdateLoanRequest updateLoanRequest);
     Task<Loan> ApproveAsync(Guid id);
     Task<Loan> RejectAsync(Guid id);
-    Task<IEnumerable<GetLoanResponseModel>> GetAllAsync();
-    Task<IEnumerable<GetLoanResponseModel>> GetAllByUserIdAsync(Guid userId);
 
 }

@@ -30,6 +30,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();
 builder.Services.AddScoped<IUserCommandExecutor, UserCommandExecutor>();
 builder.Services.AddScoped<ILoanCommandExecutor, LoanCommandExecutor>();
+builder.Services.AddScoped<ILoanQueryExecutor, LoanQueryExecutor>();
 builder.Services.AddSingleton<ITokenService, TokenService>();
 
 builder.Services.AddAuthentication(options =>

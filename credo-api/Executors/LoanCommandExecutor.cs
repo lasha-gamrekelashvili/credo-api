@@ -90,40 +90,5 @@ public class LoanCommandExecutor : ILoanCommandExecutor
 
         return await Task.FromResult(loan);
     }
-
-    public async Task<IEnumerable<GetLoanResponseModel>> GetAllAsync()
-    {
-        var loans = await _loanRepository.GetAllAsync();
-
-        var response = loans.Select(loan => new GetLoanResponseModel()
-            {
-                LoanId = loan.Id,
-                UserId = loan.UserId,
-                Currency = loan.Currency,
-                Period = loan.Period,
-                Type = loan.Type,
-                Amount = loan.Amount,
-                Status = loan.Status
-            });
-
-        return await Task.FromResult(response);
-    }
-
-    public async Task<IEnumerable<GetLoanResponseModel>> GetAllByUserIdAsync(Guid userId)
-    {
-        var loans = await _loanRepository.GetAllLoansByUserIdAsync(userId);
-
-        var response = loans.Select(loan => new GetLoanResponseModel()
-        {
-            LoanId = loan.Id,
-            UserId = loan.UserId,
-            Currency = loan.Currency,
-            Period = loan.Period,
-            Type = loan.Type,
-            Amount = loan.Amount,
-            Status = loan.Status
-        });
-
-        return await Task.FromResult(response);
-    }
+    
 }
